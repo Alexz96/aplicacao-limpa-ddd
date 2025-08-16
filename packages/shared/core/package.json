@@ -1,0 +1,22 @@
+{
+  "name": "@ddd/shared",
+  "version": "1.0.0",
+  "description": "Core utilities for shared package",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --dts --minify",
+    "dev": "tsup src/index.ts --dts --watch"
+  },
+  "keywords": [
+    "core",
+    "shared",
+    "utilities"
+  ],
+  "author": "Alexsander Oliveira",
+  "license": "MIT",
+  "dependencies": {
+    "tsup": "^8.4.0"
+  },
+  "devDependencies": {}
+}

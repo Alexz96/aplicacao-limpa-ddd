@@ -1,0 +1,11 @@
+{
+  "name": "@ddd/db",
+  "version": "1.0.0",
+  "description": "Database service for aplicacao-limpa-ddd",
+  "scripts": {
+    "dev": "docker-compose up",
+    "destroy": "docker-compose down -v"
+  },
+  "author": "Alexsander Oliveira",
+  "license": "MIT"
+}
