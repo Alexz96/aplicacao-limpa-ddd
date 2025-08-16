@@ -17,6 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "@ddd/shared": "*",
+    "@ddd/typescript-config": "*",
     "tsup": "^8.4.0"
   },
   "devDependencies": {}
